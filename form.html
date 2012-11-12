@@ -49,7 +49,14 @@
 
 <hr class="ss-email-break" style="display:none;">
 <div class="ss-required-asterisk">* Required</div></div>
-<div class="ss-form"><form action="https://docs.google.com/spreadsheet/formResponse?formkey=dEdNSThQc2FVWHFqbEVHcGRMVllVY2c6MQ&amp;ifq" method="POST" id="ss-form">
+<div class="ss-form"><script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='thankyou.html';}"></iframe>
+<form action="https://docs.google.com/spreadsheet/formResponse?formkey=dEdNSThQc2FVWHFqbEVHcGRMVllVY2c6MQ&amp;ifq" method="post"
+target="hidden_iframe" onsubmit="submitted=true;">
+
+
 
 
 <br>
