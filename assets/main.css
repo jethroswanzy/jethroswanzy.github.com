@@ -3,7 +3,7 @@ body {
 }
 
 body.landing-page, body.signup-page {
-  background: url(../assets/oxfordunifreecyclelogo.jpg) no-repeat center center fixed;
+  background: url(../assets/) no-repeat center center fixed;
   background-size: 100%;
 }
 
